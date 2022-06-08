@@ -22,9 +22,9 @@ function gotPoses(results)
     if(results.length > 0)
     {
         console.log(results);
-        leftWristX = results[0].pose.nose.x;
-        rightWristX = results[0].pose.nose.y;
-        console.log("noseX = " + noseX +" noseY = " + noseY);
+        leftWristX = results[0].pose.leftWrist.x;
+        rightWristX = results[0].pose.leftWrist.y;
+        console.log("leftWristX = " + rightWristX +" noseY = " + noseY);
 
         
 
